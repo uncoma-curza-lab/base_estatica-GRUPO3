@@ -1,8 +1,11 @@
 body {
+    background-color: #b0b9b4;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FAFAFA;
 }
 
 header {
@@ -10,9 +13,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #3F51B5;
+    background-color: #589b5e;
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    border: 3px solid black;
+
+
 }
 
 header h1 {
@@ -38,14 +44,33 @@ main {
     max-width: 900px;
     margin: 40px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(161, 235, 147);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.princ {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.princ2 {
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.princ3 {
+    text-align: center;
+    font-size: 28px;
 }
 
 img {
     display: block;
     margin: 40px auto;
-    max-width: 100%;
 }
 
 footer {
@@ -53,7 +78,8 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #3F51B5;
+    background-color: #589b5e;
+    border: 3px solid black;
 }
 
 .navButton {
@@ -70,4 +96,11 @@ footer {
 .flecha {
     font-size: 25px;
     font-weight: bolder;
+}
+
+.cuadro {
+    width: auto;
+    height: auto;
+    background-color: rgb(165, 226, 198);
+    border: 1px solid black;
 }
